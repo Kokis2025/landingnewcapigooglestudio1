@@ -100,7 +100,7 @@ const App: React.FC = () => {
             <div className="flex items-center justify-center h-screen bg-red-50 text-red-800">
                 <div className="text-center p-8">
                     <h1 className="text-2xl font-bold mb-4">Configuración de Supabase Requerida</h1>
-                    <p>Por favor, asegúrate de que las variables de entorno <code className="bg-red-200 p-1 rounded">SUPABASE_URL</code> y <code className="bg-red-200 p-1 rounded">SUPABASE_ANON_KEY</code> están configuradas correctamente.</p>
+                    <p>Por favor, asegúrate de que las variables de entorno <code className="bg-red-200 p-1 rounded">VITE_SUPABASE_URL</code> y <code className="bg-red-200 p-1 rounded">VITE_SUPABASE_ANON_KEY</code> están configuradas correctamente en Vercel para todos los entornos (Production y Preview).</p>
                 </div>
             </div>
         );
